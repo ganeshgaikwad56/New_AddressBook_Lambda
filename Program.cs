@@ -6,7 +6,10 @@ namespace NewAddressBook
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Address Book Program");
+            Console.WriteLine("Welcome to Address Book Progam \n");
+            CreateAddressBook createAddressBook = new CreateAddressBook();
+            createAddressBook.ReadInput();
+            Console.ReadLine();
         }
     }
 }
